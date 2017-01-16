@@ -1,0 +1,3 @@
+- Arduino Buchsenleisten durchkontaktieren/invertieren
+- LEDs verteilen
+- OLED Abstand zu LEDs

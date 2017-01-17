@@ -1,3 +1,5 @@
+- Pins Schieberegister anschließen
+- Pins LEDs anschließen
 - Arduino Buchsenleisten durchkontaktieren/invertieren
 - LEDs verteilen
 - OLED Abstand zu LEDs

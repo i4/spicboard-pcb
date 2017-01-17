@@ -1,6 +1,4 @@
-- Pins LEDs anschließen
 - Arduino Buchsenleisten durchkontaktieren/invertieren
-- LEDs verteilen
-- OLED Abstand zu LEDs
-- Button Package mit allen 4 Pins belegen
 - LEDs Label PXx anpassen
+- ADC Pins tauschen (EXTADC mit LDR)
+- Footprints überprüfen auf Ausdruck

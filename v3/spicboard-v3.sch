@@ -7907,8 +7907,8 @@ naming: grid - package width</description>
 <part name="IC1" library="74xx-eu" deviceset="74*595" device="N" technology="HC"/>
 <part name="LDR" library="spicboard-v3" deviceset="LDR" device="LDR" value=""/>
 <part name="VR1" library="spicboard-v3" deviceset="POTENTIOMETER" device="-PTH-9MM-1/20W-20%" value="10k"/>
-<part name="RN1" library="resistor-sil" deviceset="E4R" device=""/>
-<part name="RN2" library="resistor-sil" deviceset="E4R" device=""/>
+<part name="RN1" library="resistor-sil" deviceset="E4R" device="" value="330"/>
+<part name="RN2" library="resistor-sil" deviceset="E4R" device="" value="330"/>
 <part name="Q1" library="transistor-pnp" deviceset="BC557*" device=""/>
 <part name="Q2" library="transistor-pnp" deviceset="BC557*" device=""/>
 <part name="7SEG" library="display-kingbright" deviceset="DA56-11" device="" technology="GWA" value=""/>
@@ -8323,6 +8323,7 @@ naming: grid - package width</description>
 <wire x1="175.26" y1="-5.08" x2="175.26" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="-7.62" x2="172.72" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="172.72" y="-7.62"/>
+<junction x="144.78" y="-7.62"/>
 </segment>
 <segment>
 <pinref part="OLED1" gate="A" pin="1"/>
@@ -8583,8 +8584,6 @@ naming: grid - package width</description>
 <wire x1="76.2" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <label x="78.74" y="55.88" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="EXTIRQ" class="0">
 <segment>
 <pinref part="EXT" gate="A" pin="3"/>
 <wire x1="45.72" y1="-20.32" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>

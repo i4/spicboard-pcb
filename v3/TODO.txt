@@ -1,4 +1,2 @@
 - Arduino Buchsenleisten durchkontaktieren/invertieren
-- LEDs Label PXx anpassen
-- ADC Pins tauschen (EXTADC mit LDR)
 - Footprints überprüfen auf Ausdruck

@@ -1,2 +1,4 @@
 - Arduino Buchsenleisten durchkontaktieren/invertieren
 - Footprints überprüfen auf Ausdruck
+- LED Pins/Labels kontrollieren
+- AREF / IOREF beschalten ?

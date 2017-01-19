@@ -1,6 +1,5 @@
 - Arduino Buchsenleisten durchkontaktieren/invertieren
 - Footprints überprüfen auf Ausdruck
-- LED Pins/Labels kontrollieren
 - AREF / IOREF beschalten ?
 - i4 Lehrstuhllogo und Text "SPiCboard v3"
 - LDR oder PHOTO ?

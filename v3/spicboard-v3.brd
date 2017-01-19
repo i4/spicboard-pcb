@@ -154,7 +154,7 @@
 <text x="6.985" y="33.7" size="1.27" layer="25" rot="R90" align="top-center">PD7</text>
 <text x="6.985" y="26.3" size="1.27" layer="25" rot="R90" align="top-center">PB0</text>
 <text x="6.985" y="18.9" size="1.27" layer="25" rot="R90" align="top-center">PB1</text>
-<text x="6.985" y="11.5" size="1.27" layer="25" rot="R90" align="top-center">PB5</text>
+<text x="6.985" y="11.5" size="1.27" layer="25" rot="R90" align="top-center">PB4</text>
 <text x="6.985" y="4.1" size="1.27" layer="25" rot="R90" align="top-center">PC2</text>
 <text x="64.4" y="25.4" size="1.27" layer="25" rot="R270" align="top-center">PD3</text>
 <text x="64.5" y="13.97" size="1.27" layer="25" rot="R270" align="top-center">PD2</text>

@@ -1,4 +1,3 @@
 - Arduino Buchsenleisten durchkontaktieren/invertieren
 - Footprints überprüfen auf Ausdruck
-- Widerstandsnetzwerk: 1 und Markierung entfernen
 - Arduino Buchsenleisten: Beschriftungen verschieben

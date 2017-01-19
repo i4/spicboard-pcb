@@ -9370,7 +9370,7 @@ No silk outline, but tDocu layer shows pin location.
 <part name="R7" library="resistor" deviceset="R-EU_" device="0207/10" value="330"/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
 <part name="IC1" library="74xx-eu" deviceset="74*595" device="N" technology="HC"/>
-<part name="LDR" library="spicboard-v3" deviceset="LDR" device="LDR" value=""/>
+<part name="PHOTO" library="spicboard-v3" deviceset="LDR" device="LDR" value=""/>
 <part name="POTI" library="spicboard-v3" deviceset="POTENTIOMETER" device="-PTH-9MM-1/20W-20%" value="10k"/>
 <part name="RN1" library="resistor-sil" deviceset="E4R" device="" value="330"/>
 <part name="RN2" library="resistor-sil" deviceset="E4R" device="" value="330"/>
@@ -9430,7 +9430,7 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="R7" gate="G$1" x="15.24" y="33.02"/>
 <instance part="R8" gate="G$1" x="15.24" y="25.4"/>
 <instance part="IC1" gate="A" x="109.22" y="40.64"/>
-<instance part="LDR" gate="G$1" x="83.82" y="101.6" rot="R90"/>
+<instance part="PHOTO" gate="G$1" x="83.82" y="101.6" rot="R90"/>
 <instance part="POTI" gate="G$1" x="63.5" y="96.52" rot="MR0"/>
 <instance part="RN1" gate="A" x="139.7" y="48.26"/>
 <instance part="RN1" gate="B" x="139.7" y="43.18"/>
@@ -9666,7 +9666,7 @@ No silk outline, but tDocu layer shows pin location.
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
-<pinref part="LDR" gate="G$1" pin="2"/>
+<pinref part="PHOTO" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="BLUE1" gate="G$1" pin="A"/>
@@ -9877,7 +9877,7 @@ No silk outline, but tDocu layer shows pin location.
 <net name="LDR" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="LDR" gate="G$1" pin="1"/>
+<pinref part="PHOTO" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 <label x="73.66" y="96.52" size="1.778" layer="95"/>
 <junction x="83.82" y="96.52"/>

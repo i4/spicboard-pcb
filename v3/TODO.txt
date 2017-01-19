@@ -1,6 +1,5 @@
 - Arduino Buchsenleisten durchkontaktieren/invertieren
 - Footprints überprüfen auf Ausdruck
-- AREF / IOREF beschalten ?
 - i4 Lehrstuhllogo und Text "SPiCboard v3"
 - LDR oder PHOTO ?
 - Widerstandsnetzwerk: 1 und Markierung entfernen

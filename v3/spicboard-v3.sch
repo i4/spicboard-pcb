@@ -10301,6 +10301,24 @@ No silk outline, but tDocu layer shows pin location.
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,134.62,33.02,RN1D,1,,,,"/>
+<approved hash="101,1,144.78,33.02,RN1D,2,,,,"/>
+<approved hash="113,1,6.35,79.0617,RED0,,,,,"/>
+<approved hash="113,1,5.76155,71.4417,YELLOW0,,,,,"/>
+<approved hash="113,1,6.35,63.8217,GREEN0,,,,,"/>
+<approved hash="113,1,6.35,56.2017,BLUE0,,,,,"/>
+<approved hash="113,1,6.35,48.5817,RED1,,,,,"/>
+<approved hash="113,1,5.76155,40.9617,YELLOW1,,,,,"/>
+<approved hash="113,1,6.35,33.3417,GREEN1,,,,,"/>
+<approved hash="113,1,6.35,25.7217,BLUE1,,,,,"/>
+<approved hash="113,1,127.389,0,BTN0,,,,,"/>
+<approved hash="113,1,170.569,0,BTN1,,,,,"/>
+<approved hash="113,1,41.3173,-2.60773,OLED1,,,,,"/>
+<approved hash="113,1,76.8773,-2.60773,OLED2,,,,,"/>
+<approved hash="113,1,41.3173,-20.3877,EXT,,,,,"/>
+<approved hash="113,1,76.8773,-19.1177,COM,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

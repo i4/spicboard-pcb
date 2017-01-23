@@ -9764,10 +9764,10 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="154.94" y1="106.68" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="5V"/>
-<wire x1="50.8" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="38.1" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="B1" gate="G$1" pin="IOREF"/>
+<wire x1="45.72" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="POTI" gate="G$1" pin="E"/>

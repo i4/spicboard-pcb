@@ -1,3 +1,2 @@
-- Arduino Buchsenleisten durchkontaktieren/invertieren
 - Footprints überprüfen auf Ausdruck
 - Design rules abgleichen/eingeben und prüfen

@@ -2219,13 +2219,13 @@ Your Multi-CB Team
 <attribute name="VALUE" x="26.035" y="38.4556" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C1" library="capacitor-wima" package="C2.5-2" value="100n" x="27.305" y="43.815" smashed="yes" rot="R180">
-<attribute name="VALUE" x="28.956" y="46.609" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="27.305" y="45.339" size="1.27" layer="27" ratio="10" align="bottom-center"/>
 </element>
 <element name="R12" library="resistor" package="0207/10" value="1k" x="46.355" y="2.54" smashed="yes">
 <attribute name="VALUE" x="44.0944" y="1.905" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C2" library="capacitor-wima" package="C2.5-2" value="100n" x="55.88" y="2.54" smashed="yes" rot="R180">
-<attribute name="VALUE" x="62.357" y="3.175" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.674" y="3.175" size="1.27" layer="27" ratio="10" align="top-left"/>
 </element>
 <element name="R13" library="resistor" package="0207/10" value="330" x="57.785" y="50.165" smashed="yes">
 <attribute name="VALUE" x="55.5244" y="49.53" size="1.27" layer="27" ratio="10"/>

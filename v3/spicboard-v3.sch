@@ -9500,7 +9500,6 @@ No silk outline, but tDocu layer shows pin location.
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="resistor" deviceset="R-EU_" device="0207/10" value="1k"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="0207/10" value="1k"/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="C1" library="capacitor-wima" deviceset="C" device="2.5/2" value="100n"/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
@@ -9516,6 +9515,8 @@ No silk outline, but tDocu layer shows pin location.
 <part name="OLED2" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="EXT" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="COM" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="0207/10" value="1k"/>
+<part name="P+9" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9567,7 +9568,6 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="GND4" gate="1" x="137.16" y="109.22" rot="R180"/>
 <instance part="R9" gate="G$1" x="137.16" y="101.6" rot="R270"/>
 <instance part="R11" gate="G$1" x="106.68" y="96.52"/>
-<instance part="GND5" gate="1" x="93.98" y="12.7"/>
 <instance part="P+7" gate="VCC" x="93.98" y="55.88"/>
 <instance part="C1" gate="G$1" x="172.72" y="30.48"/>
 <instance part="P+8" gate="VCC" x="172.72" y="38.1"/>
@@ -9583,6 +9583,8 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="OLED2" gate="G$1" x="78.74" y="0" rot="R180"/>
 <instance part="EXT" gate="G$1" x="43.18" y="-17.78" rot="R180"/>
 <instance part="COM" gate="J$1" x="81.28" y="-17.78" rot="R180"/>
+<instance part="R15" gate="G$1" x="99.06" y="15.24"/>
+<instance part="P+9" gate="VCC" x="111.76" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -9838,6 +9840,12 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="93.98" y1="43.18" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="P+9" gate="VCC" pin="VCC"/>
+<wire x1="104.14" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="15.24" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -9866,12 +9874,6 @@ No silk outline, but tDocu layer shows pin location.
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="A" pin="G"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="96.52" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="27.94" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -10294,8 +10296,16 @@ No silk outline, but tDocu layer shows pin location.
 <segment>
 <pinref part="B1" gate="G$1" pin="*D10"/>
 <pinref part="IC1" gate="A" pin="RCK"/>
-<wire x1="76.2" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <label x="78.74" y="38.1" size="1.778" layer="95"/>
+<pinref part="IC1" gate="A" pin="G"/>
+<wire x1="93.98" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="27.94" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
+<junction x="93.98" y="38.1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="15.24" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
+<junction x="93.98" y="27.94"/>
 </segment>
 </net>
 </nets>

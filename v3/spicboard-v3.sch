@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9563,7 +9563,7 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="R10" gate="G$1" x="83.82" y="91.44" rot="R90"/>
 <instance part="P+5" gate="VCC" x="83.82" y="109.22"/>
 <instance part="GND3" gate="1" x="83.82" y="83.82"/>
-<instance part="P+6" gate="VCC" x="-2.54" y="114.3"/>
+<instance part="P+6" gate="VCC" x="-2.54" y="109.22"/>
 <instance part="GND4" gate="1" x="137.16" y="109.22" rot="R180"/>
 <instance part="R9" gate="G$1" x="137.16" y="101.6" rot="R270"/>
 <instance part="R11" gate="G$1" x="106.68" y="96.52"/>
@@ -9789,7 +9789,7 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="-2.54" y1="55.88" x2="-2.54" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="63.5" x2="-2.54" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="71.12" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="78.74" x2="-2.54" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="78.74" x2="-2.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="78.74" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="YELLOW0" gate="G$1" pin="A"/>
 <wire x1="2.54" y1="71.12" x2="-2.54" y2="71.12" width="0.1524" layer="91"/>

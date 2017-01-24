@@ -806,18 +806,18 @@ No holes, no ICSP connections.
 <pad name="D13" x="-1.27" y="19.05" drill="1.016" diameter="1.8796"/>
 <pad name="GND@2" x="-3.81" y="19.05" drill="1.016" diameter="1.8796"/>
 <pad name="AREF" x="-6.35" y="19.05" drill="1.016" diameter="1.8796"/>
-<text x="10.668" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">GND</text>
-<text x="13.208" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">GND</text>
-<text x="8.128" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">+5V</text>
-<text x="3.048" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">RST</text>
-<text x="15.748" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">VIN</text>
-<text x="5.588" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">+3.3V</text>
-<text x="20.828" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">0</text>
-<text x="23.368" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">1</text>
-<text x="25.908" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">2</text>
-<text x="28.448" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">3</text>
-<text x="30.988" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">4</text>
-<text x="33.528" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">5</text>
+<text x="10.668" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">GND</text>
+<text x="13.208" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">GND</text>
+<text x="8.128" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">+5V</text>
+<text x="3.048" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">RST</text>
+<text x="15.748" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">VIN</text>
+<text x="5.588" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">+3.3V</text>
+<text x="20.828" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">0</text>
+<text x="23.368" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">1</text>
+<text x="25.908" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">2</text>
+<text x="28.448" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">3</text>
+<text x="30.988" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">4</text>
+<text x="33.528" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">5</text>
 <text x="-4.318" y="17.78" size="1.016" layer="21" font="vector" ratio="15" rot="R270">GND</text>
 <text x="-1.778" y="17.78" size="1.016" layer="21" font="vector" ratio="15" rot="R270">13</text>
 <text x="0.762" y="17.78" size="1.016" layer="21" font="vector" ratio="15" rot="R270">12</text>
@@ -840,7 +840,7 @@ No holes, no ICSP connections.
 <text x="-11.938" y="17.78" size="1.016" layer="21" font="vector" ratio="15" rot="R270">SCL</text>
 <pad name="IOREF" x="0" y="-29.21" drill="1.016" diameter="1.8796"/>
 <pad name="NC" x="-2.54" y="-29.21" drill="1.016" diameter="1.8796"/>
-<text x="0.508" y="-30.3657" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">IOREF</text>
+<text x="0.508" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">IOREF</text>
 </package>
 </packages>
 <symbols>

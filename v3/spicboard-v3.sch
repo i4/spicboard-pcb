@@ -490,9 +490,9 @@ No holes, no ICSP connections.
 <pad name="SCL" x="-11.43" y="19.05" drill="1.016" diameter="1.8796"/>
 <text x="-9.398" y="17.78" size="1.016" layer="21" font="vector" ratio="15" rot="R270">SDA</text>
 <text x="-11.938" y="17.78" size="1.016" layer="21" font="vector" ratio="15" rot="R270">SCL</text>
-<pad name="IOREF" x="0" y="-29.21" drill="1.016" diameter="1.8796"/>
+<pad name="VCC" x="0" y="-29.21" drill="1.016" diameter="1.8796"/>
 <pad name="NC" x="-2.54" y="-29.21" drill="1.016" diameter="1.8796"/>
-<text x="0.508" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">IOREF</text>
+<text x="0.508" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">VCC</text>
 </package>
 <package name="POT-PTH-ALPS-KIT">
 <description>&lt;h3&gt;9mm Square Rotary Potentiometer - PTH (KIT Variant)&lt;/h3&gt;
@@ -567,7 +567,7 @@ No holes, no ICSP connections.
 <pin name="GND@1" x="-12.7" y="-20.32" visible="pin" length="short"/>
 <pin name="GND@0" x="-12.7" y="-22.86" visible="pin" length="short"/>
 <pin name="3.3V" x="-12.7" y="-12.7" visible="pin" length="short"/>
-<pin name="IOREF" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="VCC" x="-12.7" y="-2.54" visible="pin" length="short"/>
 <pin name="SDA" x="12.7" y="-20.32" visible="pin" length="short" rot="R180"/>
 <pin name="SCL" x="12.7" y="-22.86" visible="pin" length="short" rot="R180"/>
 </symbol>
@@ -662,12 +662,12 @@ Shield form compatible with the Arduino Uno R3.
 <connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="IOREF" pad="IOREF"/>
 <connect gate="G$1" pin="RES" pad="RES"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="IOREF"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
@@ -700,12 +700,12 @@ Shield form compatible with the Arduino Uno R3.
 <connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="IOREF" pad="IOREF"/>
 <connect gate="G$1" pin="RES" pad="RES"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="IOREF"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
@@ -738,12 +738,12 @@ Shield form compatible with the Arduino Uno R3.
 <connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="IOREF" pad="IOREF"/>
 <connect gate="G$1" pin="RES" pad="RES"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
@@ -9769,7 +9769,7 @@ No silk outline, but tDocu layer shows pin location.
 <segment>
 <wire x1="40.64" y1="45.72" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<pinref part="B1" gate="G$1" pin="IOREF"/>
+<pinref part="B1" gate="G$1" pin="VCC"/>
 <wire x1="40.64" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10314,14 +10314,14 @@ No silk outline, but tDocu layer shows pin location.
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,134.62,33.02,RN1D,1,,,,"/>
-<approved hash="101,1,144.78,33.02,RN1D,2,,,,"/>
+<approved hash="101,1,139.7,33.02,RN1D,1,,,,"/>
+<approved hash="101,1,149.86,33.02,RN1D,2,,,,"/>
 <approved hash="113,1,6.35,79.0617,RED0,,,,,"/>
-<approved hash="113,1,5.76155,71.4417,YELLOW0,,,,,"/>
+<approved hash="113,1,6.03861,71.4417,YELLOW0,,,,,"/>
 <approved hash="113,1,6.35,63.8217,GREEN0,,,,,"/>
 <approved hash="113,1,6.35,56.2017,BLUE0,,,,,"/>
 <approved hash="113,1,6.35,48.5817,RED1,,,,,"/>
-<approved hash="113,1,5.76155,40.9617,YELLOW1,,,,,"/>
+<approved hash="113,1,6.03861,40.9617,YELLOW1,,,,,"/>
 <approved hash="113,1,6.35,33.3417,GREEN1,,,,,"/>
 <approved hash="113,1,6.35,25.7217,BLUE1,,,,,"/>
 <approved hash="113,1,127.389,0,BTN0,,,,,"/>

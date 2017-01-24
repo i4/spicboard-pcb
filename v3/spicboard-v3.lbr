@@ -55,7 +55,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -838,9 +838,9 @@ No holes, no ICSP connections.
 <pad name="SCL" x="-11.43" y="19.05" drill="1.016" diameter="1.8796"/>
 <text x="-9.398" y="17.78" size="1.016" layer="21" font="vector" ratio="15" rot="R270">SDA</text>
 <text x="-11.938" y="17.78" size="1.016" layer="21" font="vector" ratio="15" rot="R270">SCL</text>
-<pad name="IOREF" x="0" y="-29.21" drill="1.016" diameter="1.8796"/>
+<pad name="VCC" x="0" y="-29.21" drill="1.016" diameter="1.8796"/>
 <pad name="NC" x="-2.54" y="-29.21" drill="1.016" diameter="1.8796"/>
-<text x="0.508" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">IOREF</text>
+<text x="0.508" y="-30.48" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">VCC</text>
 </package>
 </packages>
 <symbols>
@@ -881,7 +881,7 @@ No holes, no ICSP connections.
 <pin name="GND@1" x="-12.7" y="-20.32" visible="pin" length="short"/>
 <pin name="GND@0" x="-12.7" y="-22.86" visible="pin" length="short"/>
 <pin name="3.3V" x="-12.7" y="-12.7" visible="pin" length="short"/>
-<pin name="IOREF" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="VCC" x="-12.7" y="-2.54" visible="pin" length="short"/>
 <pin name="SDA" x="12.7" y="-20.32" visible="pin" length="short" rot="R180"/>
 <pin name="SCL" x="12.7" y="-22.86" visible="pin" length="short" rot="R180"/>
 </symbol>
@@ -988,12 +988,12 @@ Shield form compatible with the Arduino Uno R3.
 <connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="IOREF" pad="IOREF"/>
 <connect gate="G$1" pin="RES" pad="RES"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="IOREF"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
@@ -1026,12 +1026,12 @@ Shield form compatible with the Arduino Uno R3.
 <connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="IOREF" pad="IOREF"/>
 <connect gate="G$1" pin="RES" pad="RES"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="IOREF"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
@@ -1064,12 +1064,12 @@ Shield form compatible with the Arduino Uno R3.
 <connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="IOREF" pad="IOREF"/>
 <connect gate="G$1" pin="RES" pad="RES"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>

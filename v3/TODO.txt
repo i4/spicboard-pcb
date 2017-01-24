@@ -1,2 +1,5 @@
 - Footprints überprüfen auf Ausdruck
 - Design rules abgleichen/eingeben und prüfen
+- Layerzuordnung prüfen (insbesondere Beschrifungen und Markierungen)
+- Spannungsversorgung über IOREF oder +5V ? Jumper ?
+- Boardgröße ?

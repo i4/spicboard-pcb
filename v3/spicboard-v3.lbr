@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -624,13 +624,12 @@ Looking footprint for headers.
 type 0204, grid 2.5 mm</description>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.508" layer="51"/>
 <wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.508" layer="21"/>
-<circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
+<circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="21"/>
 <pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
 <pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <text x="-2.1336" y="1.1684" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
+<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="21"/>
 </package>
 <package name="UNO_R3_SHIELD_NOFRAME">
 <description>&lt;h3&gt;Arduino Uno-Compatible Footprint&lt;/h3&gt;
@@ -763,22 +762,22 @@ No holes, no ICSP connections.
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;Arduino Uno R3 Shield&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="34.29" y1="20.32" x2="34.29" y2="17.78" width="0.127" layer="51"/>
-<wire x1="34.29" y1="17.78" x2="13.97" y2="17.78" width="0.127" layer="51"/>
-<wire x1="13.97" y1="17.78" x2="13.97" y2="20.32" width="0.127" layer="51"/>
-<wire x1="13.97" y1="20.32" x2="34.29" y2="20.32" width="0.127" layer="51"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="17.78" width="0.127" layer="51"/>
-<wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="17.78" x2="-12.7" y2="20.32" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-27.94" x2="-3.81" y2="-30.48" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-30.48" x2="16.51" y2="-30.48" width="0.127" layer="51"/>
-<wire x1="16.51" y1="-30.48" x2="16.51" y2="-27.94" width="0.127" layer="51"/>
-<wire x1="16.51" y1="-27.94" x2="-3.81" y2="-27.94" width="0.127" layer="51"/>
-<wire x1="19.05" y1="-30.48" x2="19.05" y2="-27.94" width="0.127" layer="51"/>
-<wire x1="19.05" y1="-27.94" x2="34.29" y2="-27.94" width="0.127" layer="51"/>
-<wire x1="34.29" y1="-27.94" x2="34.29" y2="-30.48" width="0.127" layer="51"/>
-<wire x1="34.29" y1="-30.48" x2="19.05" y2="-30.48" width="0.127" layer="51"/>
+<wire x1="34.29" y1="20.32" x2="34.29" y2="17.78" width="0.127" layer="21"/>
+<wire x1="34.29" y1="17.78" x2="13.97" y2="17.78" width="0.127" layer="21"/>
+<wire x1="13.97" y1="17.78" x2="13.97" y2="20.32" width="0.127" layer="21"/>
+<wire x1="13.97" y1="20.32" x2="34.29" y2="20.32" width="0.127" layer="21"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="17.78" width="0.127" layer="21"/>
+<wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="17.78" x2="-12.7" y2="20.32" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-27.94" x2="-3.81" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-30.48" x2="16.51" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-30.48" x2="16.51" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-27.94" x2="-3.81" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-30.48" x2="19.05" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-27.94" x2="34.29" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="34.29" y1="-27.94" x2="34.29" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="34.29" y1="-30.48" x2="19.05" y2="-30.48" width="0.127" layer="21"/>
 <pad name="RES" x="2.54" y="-29.21" drill="1.016" diameter="1.8796"/>
 <pad name="3.3V" x="5.08" y="-29.21" drill="1.016" diameter="1.8796"/>
 <pad name="5V" x="7.62" y="-29.21" drill="1.016" diameter="1.8796"/>
@@ -1126,7 +1125,7 @@ Shield form compatible with the Arduino Uno R3.
 <gate name="G$1" symbol="LDR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="LDR" package="LDR">
+<device name="" package="LDR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

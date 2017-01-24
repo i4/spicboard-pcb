@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -200,22 +200,22 @@ No holes, no ICSP connections.
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;Arduino Uno R3 Shield&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="34.29" y1="20.32" x2="34.29" y2="17.78" width="0.127" layer="51"/>
-<wire x1="34.29" y1="17.78" x2="13.97" y2="17.78" width="0.127" layer="51"/>
-<wire x1="13.97" y1="17.78" x2="13.97" y2="20.32" width="0.127" layer="51"/>
-<wire x1="13.97" y1="20.32" x2="34.29" y2="20.32" width="0.127" layer="51"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="17.78" width="0.127" layer="51"/>
-<wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="17.78" x2="-12.7" y2="20.32" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-27.94" x2="-3.81" y2="-30.48" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-30.48" x2="16.51" y2="-30.48" width="0.127" layer="51"/>
-<wire x1="16.51" y1="-30.48" x2="16.51" y2="-27.94" width="0.127" layer="51"/>
-<wire x1="16.51" y1="-27.94" x2="-3.81" y2="-27.94" width="0.127" layer="51"/>
-<wire x1="19.05" y1="-30.48" x2="19.05" y2="-27.94" width="0.127" layer="51"/>
-<wire x1="19.05" y1="-27.94" x2="34.29" y2="-27.94" width="0.127" layer="51"/>
-<wire x1="34.29" y1="-27.94" x2="34.29" y2="-30.48" width="0.127" layer="51"/>
-<wire x1="34.29" y1="-30.48" x2="19.05" y2="-30.48" width="0.127" layer="51"/>
+<wire x1="34.29" y1="20.32" x2="34.29" y2="17.78" width="0.127" layer="21"/>
+<wire x1="34.29" y1="17.78" x2="13.97" y2="17.78" width="0.127" layer="21"/>
+<wire x1="13.97" y1="17.78" x2="13.97" y2="20.32" width="0.127" layer="21"/>
+<wire x1="13.97" y1="20.32" x2="34.29" y2="20.32" width="0.127" layer="21"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="17.78" width="0.127" layer="21"/>
+<wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="17.78" x2="-12.7" y2="20.32" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-27.94" x2="-3.81" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-30.48" x2="16.51" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-30.48" x2="16.51" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-27.94" x2="-3.81" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-30.48" x2="19.05" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-27.94" x2="34.29" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="34.29" y1="-27.94" x2="34.29" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="34.29" y1="-30.48" x2="19.05" y2="-30.48" width="0.127" layer="21"/>
 <pad name="RES" x="2.54" y="-29.21" drill="1.016" diameter="1.8796"/>
 <pad name="3.3V" x="5.08" y="-29.21" drill="1.016" diameter="1.8796"/>
 <pad name="5V" x="7.62" y="-29.21" drill="1.016" diameter="1.8796"/>
@@ -309,13 +309,12 @@ No holes, no ICSP connections.
 type 0204, grid 2.5 mm</description>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.508" layer="51"/>
 <wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.508" layer="21"/>
-<circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
+<circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="21"/>
 <pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
 <pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <text x="-2.1336" y="1.1684" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
+<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="21"/>
 </package>
 <package name="SIL8">
 <description>&lt;b&gt;Single In Line&lt;/b&gt;</description>
@@ -1572,13 +1571,13 @@ Source: DA56-11SRWA.pdf</description>
 <pad name="18" x="-10.26" y="7.62" drill="0.8" diameter="1.4224" rot="R180"/>
 <text x="-12.165" y="10.16" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.535" y="10.16" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-7.3945" y="5.9694"/>
 <vertex x="-7.2233" y="6.948"/>
 <vertex x="-3.2037" y="6.948"/>
 <vertex x="-3.326" y="5.9694"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-3.6132" y="1.0329"/>
 <vertex x="-2.5796" y="6.9034"/>
 <vertex x="-2.277" y="6.9114" curve="-104.731141"/>
@@ -1586,7 +1585,7 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="-2.6899" y="0.4893"/>
 <vertex x="-3.1547" y="0.4893"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-8.8869" y="1.0764"/>
 <vertex x="-7.8593" y="6.948"/>
 <vertex x="-8.1285" y="6.948" curve="77.705866"/>
@@ -1602,13 +1601,13 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="-4.2312" y="-0.3425"/>
 <vertex x="-8.6177" y="-0.3425"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-5.3321" y="-5.7003"/>
 <vertex x="-5.5033" y="-6.6789"/>
 <vertex x="-9.5229" y="-6.6789"/>
 <vertex x="-9.4006" y="-5.7003"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-9.1868" y="-0.7149"/>
 <vertex x="-10.1471" y="-6.6343"/>
 <vertex x="-10.4497" y="-6.6423" curve="-104.72259"/>
@@ -1616,7 +1615,7 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="-10.1101" y="-0.1713"/>
 <vertex x="-9.6453" y="-0.1713"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-3.8887" y="-0.9541"/>
 <vertex x="-4.8673" y="-6.6789"/>
 <vertex x="-4.5982" y="-6.6789" curve="77.701982"/>
@@ -1624,13 +1623,13 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="-2.7878" y="-0.4159"/>
 <vertex x="-3.3505" y="-0.4159"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="5.3055" y="5.9694"/>
 <vertex x="5.4767" y="6.948"/>
 <vertex x="9.4963" y="6.948"/>
 <vertex x="9.374" y="5.9694"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="9.0868" y="1.0329"/>
 <vertex x="10.1204" y="6.9034"/>
 <vertex x="10.423" y="6.9114" curve="-104.731141"/>
@@ -1638,7 +1637,7 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="10.0101" y="0.4893"/>
 <vertex x="9.5453" y="0.4893"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="3.8131" y="1.0764"/>
 <vertex x="4.8407" y="6.948"/>
 <vertex x="4.5715" y="6.948" curve="77.705866"/>
@@ -1654,13 +1653,13 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="8.4688" y="-0.3425"/>
 <vertex x="4.0823" y="-0.3425"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="7.3679" y="-5.7003"/>
 <vertex x="7.1967" y="-6.6789"/>
 <vertex x="3.1771" y="-6.6789"/>
 <vertex x="3.2994" y="-5.7003"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="3.5132" y="-0.7149"/>
 <vertex x="2.5529" y="-6.6343"/>
 <vertex x="2.2503" y="-6.6423" curve="-104.72259"/>
@@ -1668,7 +1667,7 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="2.5899" y="-0.1713"/>
 <vertex x="3.0547" y="-0.1713"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="8.8113" y="-0.9541"/>
 <vertex x="7.8327" y="-6.6789"/>
 <vertex x="8.1018" y="-6.6789" curve="77.701982"/>
@@ -2149,9 +2148,8 @@ Your Multi-CB Team
 <element name="IC1" library="74xx-eu" package="DIL16" value="74HC595N" x="40.64" y="43.18" smashed="yes">
 <attribute name="VALUE" x="33.147" y="42.545" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="PHOTO" library="spicboard-v3" package="LDR" value="" x="60.0075" y="36.195" smashed="yes" rot="R90">
+<element name="PHOTO" library="spicboard-v3" package="LDR" value="LDR" x="60.0075" y="36.195" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.0771" y="36.2204" size="1.27" layer="25" ratio="10" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="62.3189" y="34.0614" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="POTI" library="spicboard-v3" package="POT-PTH-ALPS" value="10k" x="13.97" y="8.255" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="RES-09177" x="13.97" y="8.255" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2179,12 +2177,11 @@ Your Multi-CB Team
 <element name="Q2" library="transistor-pnp" package="TO92-EBC" value="BC557" x="23.495" y="15.24" smashed="yes" rot="R90">
 <attribute name="VALUE" x="26.797" y="15.24" size="1.27" layer="25" ratio="10" rot="R90" align="top-center"/>
 </element>
-<element name="7SEG" library="display-kingbright" package="DA56" value="" x="41.275" y="19.685" smashed="yes">
+<element name="7SEG" library="display-kingbright" package="DA56" value="DA56-11GWA" x="41.275" y="19.685" smashed="yes">
 <attribute name="MPN" value="" x="41.275" y="19.685" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="41.275" y="19.685" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="41.275" y="19.685" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="41.275" y="19.685" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="41.81" y="29.845" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="R10" library="resistor" package="0207/10" value="49.9k" x="53.975" y="36.195" smashed="yes" rot="R270">
 <attribute name="VALUE" x="53.34" y="38.4556" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -2308,7 +2305,7 @@ Your Multi-CB Team
 <wire x1="4.1275" y1="2.2225" x2="20.0025" y2="2.2225" width="0.6096" layer="1"/>
 <wire x1="24.765" y1="22.225" x2="24.765" y2="17.78" width="0.4064" layer="16"/>
 <contactref element="OLED1" pad="2"/>
-<wire x1="54.9275" y1="43.18" x2="49.2125" y2="43.18" width="0.4064" layer="1"/>
+<wire x1="55.245" y1="42.8625" x2="49.53" y2="42.8625" width="0.4064" layer="1"/>
 <wire x1="16.47" y1="15.255" x2="16.495" y2="15.255" width="0.4064" layer="16"/>
 <contactref element="OLED2" pad="1"/>
 <contactref element="EXT" pad="2"/>
@@ -2354,10 +2351,10 @@ Your Multi-CB Team
 <wire x1="16.51" y1="16.51" x2="17.78" y2="17.78" width="0.4064" layer="1"/>
 <wire x1="46.355" y1="48.895" x2="46.99" y2="48.26" width="0.4064" layer="1"/>
 <wire x1="46.99" y1="48.26" x2="46.99" y2="46.99" width="0.4064" layer="1"/>
-<wire x1="46.99" y1="45.4025" x2="49.2125" y2="43.18" width="0.4064" layer="1"/>
+<wire x1="46.99" y1="45.4025" x2="49.53" y2="42.8625" width="0.4064" layer="1"/>
 <wire x1="62.865" y1="33.02" x2="60.0075" y2="30.1625" width="0.4064" layer="1"/>
 <wire x1="60.0075" y1="37.465" x2="60.0075" y2="38.1" width="0.4064" layer="1"/>
-<wire x1="60.0075" y1="38.1" x2="54.9275" y2="43.18" width="0.4064" layer="1"/>
+<wire x1="60.0075" y1="38.1" x2="55.245" y2="42.8625" width="0.4064" layer="1"/>
 <contactref element="R15" pad="2"/>
 <wire x1="64.135" y1="45.72" x2="62.865" y2="44.45" width="0.4064" layer="1"/>
 <wire x1="64.135" y1="58.42" x2="64.135" y2="45.72" width="0.4064" layer="1"/>
@@ -2858,12 +2855,12 @@ Your Multi-CB Team
 <wire x1="41.91" y1="48.895" x2="38.1" y2="52.705" width="0.4064" layer="16"/>
 <wire x1="41.91" y1="48.895" x2="41.91" y2="46.99" width="0.4064" layer="16"/>
 <contactref element="IC1" pad="13"/>
-<contactref element="R15" pad="1"/>
-<wire x1="52.705" y1="44.45" x2="51.1175" y2="46.0375" width="0.4064" layer="16"/>
 <wire x1="51.1175" y1="46.0375" x2="51.1175" y2="47.9425" width="0.4064" layer="16"/>
 <wire x1="51.1175" y1="47.9425" x2="50.165" y2="48.895" width="0.4064" layer="16"/>
 <wire x1="50.165" y1="48.895" x2="41.91" y2="48.895" width="0.4064" layer="16"/>
 <wire x1="41.91" y1="46.99" x2="39.37" y2="46.99" width="0.4064" layer="16"/>
+<contactref element="R15" pad="1"/>
+<wire x1="52.705" y1="44.45" x2="51.1175" y2="46.0375" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$33">
 </signal>

@@ -3,7 +3,7 @@
 <eagle version="8.0.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -2179,8 +2179,8 @@ Your Multi-CB Team
 <element name="POTI" library="spicboard-v3" package="POT-PTH-ALPS" value="10k" x="13.97" y="8.255" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="RES-09177" x="13.97" y="8.255" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_SKU" value="COM-09288" x="13.97" y="8.255" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.97" y="2.032" size="1.27" layer="25" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="13.97" y="3.556" size="1.27" layer="27" ratio="20" rot="R180" align="top-center"/>
+<attribute name="NAME" x="13.97" y="2.032" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="13.97" y="3.556" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="RN1" library="spicboard-v3" package="SIL8" value="330" x="40.64" y="35.56" smashed="yes">
 <attribute name="MPN" value="" x="40.64" y="35.56" size="1.778" layer="27" display="off"/>

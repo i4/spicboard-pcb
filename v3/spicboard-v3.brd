@@ -2114,7 +2114,7 @@ Your Multi-CB Team
 <element name="R3" library="resistor" package="0207/10" value="330" x="14.605" y="38.735" smashed="yes">
 <attribute name="VALUE" x="12.3444" y="38.1" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="R4" library="resistor" package="0207/10" value="10K" x="14.605" y="34.925" smashed="yes">
+<element name="R4" library="resistor" package="0207/10" value="10k" x="14.605" y="34.925" smashed="yes">
 <attribute name="VALUE" x="12.3444" y="34.29" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="R5" library="resistor" package="0207/10" value="330" x="14.605" y="31.115" smashed="yes">
@@ -2126,7 +2126,7 @@ Your Multi-CB Team
 <element name="R7" library="resistor" package="0207/10" value="330" x="14.605" y="23.495" smashed="yes">
 <attribute name="VALUE" x="12.3444" y="22.86" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="R8" library="resistor" package="0207/10" value="10K" x="14.605" y="19.685" smashed="yes">
+<element name="R8" library="resistor" package="0207/10" value="10k" x="14.605" y="19.685" smashed="yes">
 <attribute name="VALUE" x="12.3444" y="19.05" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="RED0" library="led" package="LED5MM" value="" x="4.1" y="55.9" smashed="yes">

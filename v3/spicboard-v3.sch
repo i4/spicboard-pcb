@@ -9473,11 +9473,11 @@ No silk outline, but tDocu layer shows pin location.
 <part name="R1" library="resistor" deviceset="R-EU_" device="0207/10" value="330"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="330"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="0207/10" value="330"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="0207/10" value="330"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="0207/10" value="330"/>
 <part name="R7" library="resistor" deviceset="R-EU_" device="0207/10" value="330"/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="IC1" library="74xx-eu" deviceset="74*595" device="N" technology="HC" value="74HC595"/>
 <part name="PHOTO" library="spicboard-v3" deviceset="LDR" device="" value="LDR"/>
 <part name="POTI" library="spicboard-v3" deviceset="POTENTIOMETER" device="-PTH-9MM-1/20W-20%" value="10k"/>

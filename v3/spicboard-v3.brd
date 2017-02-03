@@ -1789,8 +1789,6 @@ Your Multi-CB Team
 </signal>
 <signal name="MISO">
 <contactref element="B1" pad="D12"/>
-<contactref element="IC1" pad="9"/>
-<wire x1="25.4" y1="54.61" x2="49.53" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

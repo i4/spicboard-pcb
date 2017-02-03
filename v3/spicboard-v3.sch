@@ -9194,12 +9194,7 @@ No silk outline, but tDocu layer shows pin location.
 <net name="MISO" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="D12"/>
-<wire x1="71.12" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="33.02" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="20.32" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="QH*"/>
-<wire x1="129.54" y1="27.94" x2="127" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <label x="73.66" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -9209,6 +9204,7 @@ No silk outline, but tDocu layer shows pin location.
 <errors>
 <approved hash="101,1,139.7,33.02,RN1D,1,,,,"/>
 <approved hash="101,1,149.86,33.02,RN1D,2,,,,"/>
+<approved hash="106,1,71.12,33.02,MISO,,,,,"/>
 <approved hash="113,1,6.35,79.0617,RED0,,,,,"/>
 <approved hash="113,1,6.03861,71.4417,YELLOW0,,,,,"/>
 <approved hash="113,1,6.35,63.8217,GREEN0,,,,,"/>
@@ -9221,8 +9217,8 @@ No silk outline, but tDocu layer shows pin location.
 <approved hash="113,1,170.569,0,BTN1,,,,,"/>
 <approved hash="113,1,41.3173,-2.60773,OLED1,,,,,"/>
 <approved hash="113,1,76.8773,-2.60773,OLED2,,,,,"/>
-<approved hash="113,1,41.3173,-20.3877,EXT,,,,,"/>
 <approved hash="113,1,76.8773,-19.1177,COM,,,,,"/>
+<approved hash="113,1,41.3173,-19.1177,EXT,,,,,"/>
 </errors>
 </schematic>
 </drawing>

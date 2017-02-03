@@ -9512,10 +9512,10 @@ No silk outline, but tDocu layer shows pin location.
 <part name="BTN1" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="OLED1" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="OLED2" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
-<part name="EXT" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="COM" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="R15" library="resistor" deviceset="R-EU_" device="0207/10" value="1k"/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
+<part name="EXT" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9582,10 +9582,10 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="BTN1" gate="1" x="172.72" y="0"/>
 <instance part="OLED1" gate="G$1" x="43.18" y="0" rot="R180"/>
 <instance part="OLED2" gate="G$1" x="78.74" y="0" rot="R180"/>
-<instance part="EXT" gate="G$1" x="43.18" y="-17.78" rot="R180"/>
 <instance part="COM" gate="J$1" x="81.28" y="-17.78" rot="R180"/>
 <instance part="R15" gate="G$1" x="88.9" y="45.72" rot="R90"/>
 <instance part="P+9" gate="VCC" x="88.9" y="58.42"/>
+<instance part="EXT" gate="J$1" x="45.72" y="-17.78" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9831,9 +9831,9 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="OLED2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="-17.78" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
-<label x="27.94" y="-17.78" size="1.778" layer="95"/>
-<pinref part="EXT" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="-15.24" x2="27.94" y2="-15.24" width="0.1524" layer="91"/>
+<label x="27.94" y="-15.24" size="1.778" layer="95"/>
+<pinref part="EXT" gate="J$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="SCL"/>
@@ -9919,9 +9919,9 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="COM" gate="J$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="-15.24" x2="27.94" y2="-15.24" width="0.1524" layer="91"/>
-<label x="27.94" y="-15.24" size="1.778" layer="95"/>
-<pinref part="EXT" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-17.78" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
+<label x="27.94" y="-17.78" size="1.778" layer="95"/>
+<pinref part="EXT" gate="J$1" pin="2"/>
 </segment>
 </net>
 <net name="SF" class="0">
@@ -10080,9 +10080,9 @@ No silk outline, but tDocu layer shows pin location.
 <label x="22.86" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="D12"/>
-<wire x1="71.12" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
-<label x="73.66" y="33.02" size="1.778" layer="95"/>
+<pinref part="B1" gate="G$1" pin="A3"/>
+<wire x1="45.72" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
+<label x="30.48" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="L7" class="0">
@@ -10165,19 +10165,7 @@ No silk outline, but tDocu layer shows pin location.
 <segment>
 <wire x1="38.1" y1="-20.32" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
 <label x="27.94" y="-20.32" size="1.778" layer="95"/>
-<pinref part="EXT" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="EXTADC" class="0">
-<segment>
-<wire x1="38.1" y1="-22.86" x2="27.94" y2="-22.86" width="0.1524" layer="91"/>
-<label x="27.94" y="-22.86" size="1.778" layer="95"/>
-<pinref part="EXT" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="A3"/>
-<wire x1="45.72" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
-<label x="30.48" y="58.42" size="1.778" layer="95"/>
+<pinref part="EXT" gate="J$1" pin="3"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -10308,6 +10296,18 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="40.64" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <junction x="88.9" y="38.1"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="D12"/>
+<wire x1="71.12" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="33.02" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="20.32" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="QH*"/>
+<wire x1="129.54" y1="27.94" x2="127" y2="27.94" width="0.1524" layer="91"/>
+<label x="73.66" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

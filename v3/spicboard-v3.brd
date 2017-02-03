@@ -1205,7 +1205,7 @@ Your Multi-CB Team
 <wire x1="17.78" y1="17.78" x2="24.765" y2="17.78" width="0.4064" layer="1"/>
 <wire x1="2.83" y1="11.5" x2="2.83" y2="4.1" width="0.6096" layer="1"/>
 <wire x1="2.83" y1="18.9" x2="2.83" y2="11.5" width="0.6096" layer="1"/>
-<wire x1="4.1275" y1="2.2225" x2="20.0025" y2="2.2225" width="0.6096" layer="1"/>
+<wire x1="4.445" y1="1.905" x2="19.685" y2="1.905" width="0.6096" layer="1"/>
 <wire x1="24.765" y1="22.225" x2="24.765" y2="17.78" width="0.4064" layer="16"/>
 <contactref element="OLED1" pad="2"/>
 <wire x1="16.47" y1="15.255" x2="16.495" y2="15.255" width="0.4064" layer="16"/>
@@ -1224,13 +1224,13 @@ Your Multi-CB Team
 <wire x1="63.1825" y1="59.3725" x2="64.389" y2="58.166" width="0.4064" layer="1"/>
 <wire x1="63.1825" y1="59.3725" x2="48.5775" y2="59.3725" width="0.4064" layer="1"/>
 <wire x1="2.885" y1="4.1" x2="2.83" y2="4.1" width="0.4064" layer="1"/>
-<wire x1="2.794" y1="3.556" x2="4.1275" y2="2.2225" width="0.6096" layer="1"/>
+<wire x1="2.794" y1="3.556" x2="4.445" y2="1.905" width="0.6096" layer="1"/>
 <wire x1="2.794" y1="3.556" x2="2.794" y2="4.191" width="0.6096" layer="1"/>
 <contactref element="B1" pad="VCC"/>
 <wire x1="16.495" y1="15.255" x2="16.51" y2="15.24" width="0.4064" layer="16"/>
 <wire x1="16.51" y1="15.24" x2="16.51" y2="13.97" width="0.4064" layer="16"/>
 <wire x1="16.51" y1="13.97" x2="24.13" y2="6.35" width="0.4064" layer="16"/>
-<wire x1="20.0025" y1="2.2225" x2="24.13" y2="6.35" width="0.6096" layer="1"/>
+<wire x1="19.685" y1="1.905" x2="24.13" y2="6.35" width="0.6096" layer="1"/>
 <wire x1="24.765" y1="22.225" x2="23.1775" y2="22.225" width="0.4064" layer="1"/>
 <wire x1="23.1775" y1="22.225" x2="21.59" y2="23.8125" width="0.4064" layer="1"/>
 <wire x1="21.59" y1="23.8125" x2="21.59" y2="32.7025" width="0.4064" layer="1"/>
@@ -1301,19 +1301,18 @@ Your Multi-CB Team
 <signal name="N$7">
 <contactref element="YELLOW1" pad="K"/>
 <contactref element="R6" pad="1"/>
-<wire x1="5.37" y1="18.9" x2="5.565" y2="18.9" width="0.4064" layer="1"/>
-<wire x1="5.565" y1="18.9" x2="6.35" y2="19.685" width="0.4064" layer="1"/>
-<wire x1="6.35" y1="19.685" x2="6.35" y2="22.86" width="0.4064" layer="1"/>
-<wire x1="6.35" y1="22.86" x2="9.525" y2="26.035" width="0.4064" layer="1"/>
-<wire x1="9.525" y1="26.035" x2="9.525" y2="27.305" width="0.4064" layer="1"/>
+<wire x1="9.525" y1="27.305" x2="9.525" y2="26.67" width="0.4064" layer="1"/>
+<wire x1="9.525" y1="27.305" x2="9.525" y2="26.67" width="0.4064" layer="1"/>
+<wire x1="5.37" y1="22.515" x2="5.37" y2="18.9" width="0.4064" layer="1"/>
+<wire x1="9.525" y1="26.67" x2="5.37" y2="22.515" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="GREEN1" pad="K"/>
 <contactref element="R7" pad="1"/>
 <wire x1="5.37" y1="11.5" x2="5.4675" y2="11.5" width="0.4064" layer="1"/>
-<wire x1="5.4675" y1="11.5" x2="7.62" y2="13.6525" width="0.4064" layer="1"/>
-<wire x1="7.62" y1="13.6525" x2="7.62" y2="21.59" width="0.4064" layer="1"/>
-<wire x1="7.62" y1="21.59" x2="9.525" y2="23.495" width="0.4064" layer="1"/>
+<wire x1="5.4675" y1="11.5" x2="7.493" y2="13.5255" width="0.4064" layer="1"/>
+<wire x1="7.493" y1="13.5255" x2="7.493" y2="21.463" width="0.4064" layer="1"/>
+<wire x1="7.493" y1="21.463" x2="9.525" y2="23.495" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="BLUE1" pad="K"/>
@@ -1560,10 +1559,11 @@ Your Multi-CB Team
 <signal name="L7">
 <contactref element="R8" pad="2"/>
 <contactref element="B1" pad="A2"/>
-<wire x1="19.685" y1="19.685" x2="19.685" y2="14.2875" width="0.4064" layer="16"/>
-<wire x1="19.685" y1="14.2875" x2="24.4475" y2="9.525" width="0.4064" layer="16"/>
-<wire x1="24.4475" y1="9.525" x2="46.355" y2="9.525" width="0.4064" layer="16"/>
+<wire x1="46.355" y1="9.525" x2="24.4475" y2="9.525" width="0.4064" layer="16"/>
 <wire x1="46.355" y1="9.525" x2="49.53" y2="6.35" width="0.4064" layer="16"/>
+<wire x1="24.4475" y1="9.525" x2="20.955" y2="13.0175" width="0.4064" layer="16"/>
+<wire x1="20.955" y1="13.0175" x2="20.955" y2="18.415" width="0.4064" layer="16"/>
+<wire x1="20.955" y1="18.415" x2="19.685" y2="19.685" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$17">
 <contactref element="Q1" pad="C"/>

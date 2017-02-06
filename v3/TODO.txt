@@ -1,2 +1,0 @@
-- LDR Widerstand 49,9k -> 30k ?
-- MISO Leitung ?

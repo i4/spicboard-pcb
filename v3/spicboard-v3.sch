@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -270,18 +270,6 @@ No holes, no ICSP connections.
 <wire x1="6.7" y1="1.4" x2="6.7" y2="1.1" width="0.2032" layer="21"/>
 <text x="-5.715" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <text x="-5.207" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-<package name="LDR">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-type 0204, grid 2.5 mm</description>
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.508" layer="21"/>
-<circle x="-1.27" y="0" radius="1.143" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<text x="-2.7686" y="1.8034" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.7686" y="-2.9464" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<circle x="1.27" y="0" radius="1.143" width="0.1524" layer="21"/>
 </package>
 <package name="UNO_R3_SHIELD_NOFRAME">
 <description>&lt;h3&gt;Arduino Uno-Compatible Footprint&lt;/h3&gt;
@@ -4083,6 +4071,33 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="9.3495" y="-0.4159"/>
 </polygon>
 </package>
+<package name="PT">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0204, grid 2.5 mm</description>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.508" layer="51"/>
+<wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.508" layer="21"/>
+<circle x="-1.27" y="0" radius="1.143" width="0.1524" layer="21"/>
+<pad name="E" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="C" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-2.7686" y="1.8034" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="PT5MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="E" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="C" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO_R3_SHIELD">
@@ -4154,16 +4169,6 @@ Source: DA56-11SRWA.pdf</description>
 <vertex x="2.54" y="1.27"/>
 </polygon>
 <wire x1="2.032" y1="-4.699" x2="2.032" y2="-3.429" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="LDR">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="RNV">
 <wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
@@ -4298,6 +4303,27 @@ Source: DA56-11SRWA.pdf</description>
 <pin name="C" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
 <pin name="E" x="-10.16" y="-2.54" visible="pad" length="middle" direction="pas"/>
 <pin name="G" x="-10.16" y="-7.62" visible="pad" length="middle" direction="pas"/>
+</symbol>
+<symbol name="PT">
+<wire x1="-3.048" y1="2.54" x2="-1.27" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.762" x2="-2.413" y2="1.143" width="0.1524" layer="94"/>
+<wire x1="-2.413" y1="1.143" x2="-1.651" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.651" y1="1.905" x2="-1.27" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="-1.143" x2="-2.286" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="-0.762" x2="-1.524" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.143" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="-2.921" y1="0.635" x2="-1.143" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.016" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="1.016" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.778" x2="1.778" y2="-1.016" width="0.1524" layer="94"/>
+<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.381" y1="-2.54" x2="0.381" y2="2.54" layer="94"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4469,22 +4495,6 @@ Shield form compatible with the Arduino Uno R3.
 <attribute name="SF_SKU" value="COM-09288"/>
 <attribute name="VALUE" value="10k"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LDR">
-<gates>
-<gate name="G$1" symbol="LDR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LDR">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6122,6 +6132,31 @@ Source: www.kingbright.com .. DA56-11SRWA.pdf</description>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PT">
+<gates>
+<gate name="G$1" symbol="PT" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="PT" package="PT">
+<connects>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PT5MM" package="PT5MM">
+<connects>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8372,10 +8407,9 @@ No silk outline, but tDocu layer shows pin location.
 <part name="R7" library="spicboard-v3" deviceset="R-EU_" device="0207/10" value="330"/>
 <part name="R8" library="spicboard-v3" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="IC1" library="74xx-eu" deviceset="74*595" device="N" technology="HC" value="74HC595"/>
-<part name="PHOTO" library="spicboard-v3" deviceset="LDR" device="" value="LDR"/>
 <part name="POTI" library="spicboard-v3" deviceset="POTENTIOMETER" device="-PTH-9MM-1/20W-20%" value="10k"/>
-<part name="RN1" library="spicboard-v3" deviceset="E4R" device="" value="330"/>
-<part name="RN2" library="spicboard-v3" deviceset="E4R" device="" value="330"/>
+<part name="RN1" library="spicboard-v3" deviceset="E4R" device="" value="1k"/>
+<part name="RN2" library="spicboard-v3" deviceset="E4R" device="" value="1k"/>
 <part name="Q1" library="transistor-pnp" deviceset="BC557*" device=""/>
 <part name="Q2" library="transistor-pnp" deviceset="BC557*" device=""/>
 <part name="7SEG" library="spicboard-v3" deviceset="DA56-11" device="" technology="GWA" value="DA56-11GWA"/>
@@ -8409,6 +8443,7 @@ No silk outline, but tDocu layer shows pin location.
 <part name="R15" library="spicboard-v3" deviceset="R-EU_" device="0207/10" value="1k"/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="EXT" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
+<part name="PHOTO" library="spicboard-v3" deviceset="PT" device="PT5MM" value="PTPT5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -8433,9 +8468,6 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="R7" gate="G$1" x="15.24" y="33.02"/>
 <instance part="R8" gate="G$1" x="15.24" y="25.4"/>
 <instance part="IC1" gate="A" x="114.3" y="40.64"/>
-<instance part="PHOTO" gate="G$1" x="83.82" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.3214" y="97.79" size="1.778" layer="95" rot="R90"/>
-</instance>
 <instance part="POTI" gate="G$1" x="63.5" y="96.52" rot="MR0"/>
 <instance part="RN1" gate="A" x="144.78" y="48.26"/>
 <instance part="RN1" gate="B" x="144.78" y="43.18"/>
@@ -8479,6 +8511,9 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="R15" gate="G$1" x="88.9" y="45.72" rot="R90"/>
 <instance part="P+9" gate="VCC" x="88.9" y="58.42"/>
 <instance part="EXT" gate="J$1" x="45.72" y="-17.78" rot="R180"/>
+<instance part="PHOTO" gate="G$1" x="81.28" y="101.6" smashed="yes">
+<attribute name="NAME" x="86.868" y="98.044" size="1.778" layer="95" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8671,10 +8706,6 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="63.5" y1="104.14" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+5" gate="VCC" pin="VCC"/>
-<pinref part="PHOTO" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="BLUE1" gate="G$1" pin="A"/>
 <wire x1="2.54" y1="25.4" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="25.4" x2="-2.54" y2="33.02" width="0.1524" layer="91"/>
@@ -8739,6 +8770,10 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="88.9" y1="50.8" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="53.34" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+<pinref part="PHOTO" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8883,9 +8918,9 @@ No silk outline, but tDocu layer shows pin location.
 <net name="LDR" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="PHOTO" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 <label x="73.66" y="96.52" size="1.778" layer="95"/>
+<pinref part="PHOTO" gate="G$1" pin="E"/>
 <junction x="83.82" y="96.52"/>
 </segment>
 <segment>

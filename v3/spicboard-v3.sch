@@ -4093,8 +4093,8 @@ type 0204, grid 2.5 mm</description>
 <wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
 <wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="E" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="C" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="E" x="-1.27" y="0" drill="1.2954" diameter="2.032" shape="octagon"/>
+<pad name="C" x="1.27" y="0" drill="1.2954" diameter="2.032" shape="octagon"/>
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -9244,7 +9244,6 @@ No silk outline, but tDocu layer shows pin location.
 <errors>
 <approved hash="101,1,139.7,33.02,RN1D,1,,,,"/>
 <approved hash="101,1,149.86,33.02,RN1D,2,,,,"/>
-<approved hash="106,1,71.12,33.02,MISO,,,,,"/>
 <approved hash="113,1,6.35,79.0617,RED0,,,,,"/>
 <approved hash="113,1,6.03861,71.4417,YELLOW0,,,,,"/>
 <approved hash="113,1,6.35,63.8217,GREEN0,,,,,"/>

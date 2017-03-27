@@ -347,13 +347,15 @@ UsedLibrary="/Applications/EAGLE-8.1.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/Applications/EAGLE-8.1.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-8.1.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-8.1.0/lbr/zilog.lbr"
+UsedLibrary="spicboard-v3.lbr"
+UsedLibrary="/Users/Basti/Documents/Promotion/Informatik 4/Lehre/Repo/V_SPiC/uebungen/spicboard/layout/v3/spicboard-v3.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="763 373 1962 972"
+Loc="0 -22 1199 577"
 State=2
 Number=0
 
 [Desktop]
-Screen="2560 2490"
+Screen="640 480"
 Window="Win_1"

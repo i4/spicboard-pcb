@@ -8443,7 +8443,7 @@ No silk outline, but tDocu layer shows pin location.
 <part name="R15" library="spicboard-v3" deviceset="R-EU_" device="0207/10" value="1k"/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="EXT" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
-<part name="PHOTO" library="spicboard-v3" deviceset="PT" device="PT5MM" value="PTPT5MM"/>
+<part name="PHOTO" library="spicboard-v3" deviceset="PT" device="PT"/>
 </parts>
 <sheets>
 <sheet>
@@ -8512,7 +8512,7 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="P+9" gate="VCC" x="88.9" y="58.42"/>
 <instance part="EXT" gate="J$1" x="45.72" y="-17.78" rot="R180"/>
 <instance part="PHOTO" gate="G$1" x="81.28" y="101.6" smashed="yes">
-<attribute name="NAME" x="86.868" y="98.044" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="86.868" y="97.536" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9244,6 +9244,7 @@ No silk outline, but tDocu layer shows pin location.
 <errors>
 <approved hash="101,1,139.7,33.02,RN1D,1,,,,"/>
 <approved hash="101,1,149.86,33.02,RN1D,2,,,,"/>
+<approved hash="106,1,71.12,33.02,MISO,,,,,"/>
 <approved hash="113,1,6.35,79.0617,RED0,,,,,"/>
 <approved hash="113,1,6.03861,71.4417,YELLOW0,,,,,"/>
 <approved hash="113,1,6.35,63.8217,GREEN0,,,,,"/>

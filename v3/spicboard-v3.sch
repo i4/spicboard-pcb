@@ -8419,7 +8419,7 @@ No silk outline, but tDocu layer shows pin location.
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="R10" library="spicboard-v3" deviceset="R-EU_" device="0207/10" value="30k"/>
+<part name="R10" library="spicboard-v3" deviceset="R-EU_" device="0207/10" value="49.9k"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>

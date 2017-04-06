@@ -180,7 +180,7 @@ v3</text>
 <vertex x="29.21" y="13.97"/>
 <vertex x="29.21" y="24.9555"/>
 </polygon>
-<text x="54.9275" y="35.2425" size="0.635" layer="25" rot="R90">PHOTO</text>
+<text x="54.9275" y="35.1155" size="0.8128" layer="25" ratio="12" rot="R90">PHOTO</text>
 </plain>
 <libraries>
 <library name="spicboard-v3">

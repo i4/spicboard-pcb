@@ -180,6 +180,7 @@ v3</text>
 <vertex x="29.21" y="13.97"/>
 <vertex x="29.21" y="24.9555"/>
 </polygon>
+<text x="54.9275" y="35.2425" size="0.635" layer="25" rot="R90">PHOTO</text>
 </plain>
 <libraries>
 <library name="spicboard-v3">
@@ -1082,7 +1083,7 @@ Your Multi-CB Team
 <attribute name="OC_FARNELL" value="unknown" x="41.275" y="19.685" size="1.778" layer="25" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="41.275" y="19.685" size="1.778" layer="25" display="off"/>
 </element>
-<element name="R10" library="spicboard-v3" package="0207/10" value="100k" x="54.2925" y="36.195" smashed="yes" rot="R270">
+<element name="R10" library="spicboard-v3" package="0207/10" value="R" x="54.2925" y="36.195" smashed="yes" rot="R270">
 <attribute name="VALUE" x="54.9275" y="33.9344" size="1.27" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="R9" library="spicboard-v3" package="0207/10" value="1k" x="23.495" y="36.195" smashed="yes" rot="R270">

@@ -9230,12 +9230,7 @@ No silk outline, but tDocu layer shows pin location.
 <segment>
 <pinref part="B1" gate="G$1" pin="D12"/>
 <label x="73.66" y="33.02" size="1.778" layer="95"/>
-<wire x1="71.12" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="33.02" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="20.32" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="QH*"/>
-<wire x1="129.54" y1="27.94" x2="127" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -445,7 +445,7 @@ Sheet="1"
 
 [Win_3]
 Type="Control Panel"
-Loc="296 245 1495 844"
+Loc="296 23 1495 622"
 State=2
 Number=0
 
